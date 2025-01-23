@@ -35,12 +35,10 @@ int main(){
         printf("Código da Carta: %s\n", codigo);
         printf("Nome da Cidade: %s\n", cidade);
         printf("População: %d\n", populacao);
-        printf("Área: %f km²\n", area);
+        printf("Área: %.2f km²\n", area);
         printf("PIB: %.2f bilhões de reais\n", pib);
         printf("Número de pontos turísticos: %d\n", pontoturistico);
         
-        
-
         return 0;
     
 
