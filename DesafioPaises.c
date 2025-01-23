@@ -9,15 +9,14 @@ int main(){
         char codigo[4];
         
 		
-		
         printf("Digite o estado: ");
         scanf(" %c", &estado);
 
         printf("Digite o código da carta: ");
-        scanf("%s", &codigo);
+        scanf("%3s", &codigo);
 		
 		printf("Digite o nome da cidade: ");
-        scanf("%s", &cidade);
+        scanf("%19s", &cidade);
 
         printf("Digite a população: ");
         scanf("%d", &populacao);
@@ -31,6 +30,7 @@ int main(){
         printf("Digite o número de pontos turísticos: ");
         scanf("%d", &pontoturistico);
 
+
 		printf("Estado: %c\n", estado);
         printf("Código da Carta: %s\n", codigo);
         printf("Nome da Cidade: %s\n", cidade);
@@ -41,7 +41,5 @@ int main(){
         
         return 0;
     
-
-
 
     }
