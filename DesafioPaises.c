@@ -9,7 +9,7 @@ int main(){
         
 		
     printf("Digite o estado: ");
-    scanf(" %c", &estado);
+    scanf("%c", &estado);
 
     printf("Digite o código da carta: ");
     scanf("%s", &codigo);
